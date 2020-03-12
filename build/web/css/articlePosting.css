@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+.body-change {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat';
+  background-color: #f4f6f8;
+}
+
+.cover {
+  width: 100%;
+  height: auto;
+}
+
+/* ---------navbar---------- */
+.cover .navbar-myself {
+  background-color: white;
+  height: 60px;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.11);
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  flex-wrap: row wrap;
+}
+
+.cover .navbar-myself .left-navbar {
+  width: 50%;
+  text-align: right;
+  display: inline-block;
+}
+
+.cover .navbar-myself .right-navbar {
+  width: 50%;
+  display: inline-block;
+}
+
+.cover .navbar-myself .right-navbar .logo {
+  padding: 20px 0 0 3vw;
+}
+
+.cover .navbar-myself .right-navbar .logo a {
+  text-decoration: none;
+  color: #0ab7eb;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.cover .navbar-myself .left-navbar .welcome {
+  display: inline-block;
+  height: 60px;
+  width: auto;
+  padding-top: 2%;
+  box-sizing: border-box;
+  margin-right: 30px;
+}
+
+.cover .navbar-myself .left-navbar .logout {
+  display: inline-block;
+  height: 65px;
+  width: auto;
+  padding-top: 2%;
+  box-sizing: border-box;
+  margin-right: 70px;
+}
+
+.cover .navbar-myself .left-navbar .logout a {
+  text-decoration: none;
+  border: none;
+  font-weight: 700;
+  color: black;
+  transition: all 0.2s linear;
+}
+
+.cover .navbar-myself .left-navbar .logout a:hover {
+  color: #0ab7eb;
+}
+
+/* ----------sidebar------------ */
+.cover .sidebar {
+  background-color: white;
+  width: 15%;
+  height: 100vh;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.11);
+  padding-top: 65px;
+  position: fixed;
+  z-index: 1;
+}
+
+.cover .sidebar .sub-sidebar {
+  height: 100px;
+  box-sizing: border-box;
+  padding-top: 40px;
+  text-align: center;
+}
+
+.cover .sidebar .sub-sidebar {
+  height: 80px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 30px;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #99a6b3;
+  display: inline-block;
+  border-left: 5px solid white;
+}
+
+.cover .sidebar .sub-sidebar:hover {
+  background-color: #f3fbfe;
+  color: #0ab7eb;
+  border-left: 5px solid #0ab7eb;
+}
+
+/* body */
+.cover .content {
+  width: 100%;
+  height: 100%;
+  text-align: right;
+  z-index: 1;
+}
+
+.cover .content .content-detail {
+  width: 80%;
+  height: auto;
+  display: inline-block;
+  margin: 12vh 2vw 5vh 0;
+  background-color: white;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.11);
+  border-radius: 10px;
+}
+
+/* detail of index */
+.cover .content .content-detail .title-article {
+  text-align: center;
+  height: 150px;
+  padding-top: 50px;
+  font-size: 30px;
+  box-sizing: border-box;
+  font-weight: 600;
+  color: #99a6b3;
+}
+
+.cover .content .content-detail .form {
+  padding: 0 50px 50px 50px;
+  text-align: left;
+}
+
+.cover .content .content-detail .form label {
+  font-weight: 600;
+  color: #99a6b3;
+}
+
+.cover .content .content-detail .form input {
+  width: 100%;
+  display: inline-block;
+}
+
+.cover .content .content-detail .form textarea {
+  width: 100%;
+  display: inline-block;
+}
+
+.cover .content .content-detail .form .error {
+  width: 100%;
+  color: red;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.cover .content .content-detail .form .button {
+  padding-top: 4vh;
+  text-align: center;
+}
+
+.cover .content .content-detail .form .button input {
+  width: 15%;
+  height: 50px;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #0AB7EB;
+  cursor: pointer;
+}
+
+.cover .content .content-detail .form .button input:hover {
+  background-color: rgb(24, 193, 245);
+}
+
+.cover .content .content-detail .success {
+  width: 100%;
+  font-size: 1vw;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 2vh;
+  color: green;
+  text-align: center;
+}

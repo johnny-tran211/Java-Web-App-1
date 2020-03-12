@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+.body-change {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+    background-color: #f4f6f8;
+}
+
+.cover {
+    width: 100%;
+    height: auto;
+}
+
+/* ---------navbar---------- */
+.cover .navbar-myself {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.11);
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    flex-wrap: row wrap;
+}
+
+.cover .navbar-myself .left-navbar {
+    width: 50%;
+    text-align: right;
+    display: inline-block;
+}
+
+.cover .navbar-myself .right-navbar {
+    width: 50%;
+    display: inline-block;
+}
+
+.cover .navbar-myself .right-navbar .logo {
+    padding: 20px 0 0 3vw;
+}
+
+.cover .navbar-myself .right-navbar .logo a {
+    text-decoration: none;
+    color: #0ab7eb;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.cover .navbar-myself .left-navbar .welcome {
+    display: inline-block;
+    height: 60px;
+    width: auto;
+    padding-top: 2%;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+
+.cover .navbar-myself .left-navbar .logout {
+    display: inline-block;
+    height: 65px;
+    width: auto;
+    padding-top: 2%;
+    box-sizing: border-box;
+    margin-right: 70px;
+}
+
+.cover .navbar-myself .left-navbar .logout a {
+    text-decoration: none;
+    border: none;
+    font-weight: 700;
+    color: black;
+    transition: all 0.2s linear;
+}
+
+.cover .navbar-myself .left-navbar .logout a:hover {
+    color: #0ab7eb;
+}
+
+/* ----------sidebar------------ */
+.cover .sidebar {
+    background-color: white;
+    width: 15%;
+    height: 100vh;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.11);
+    padding-top: 65px;
+    position: fixed;
+    z-index: 1;
+}
+
+.cover .sidebar .sub-sidebar {
+    height: 100px;
+    box-sizing: border-box;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.cover .sidebar .sub-sidebar {
+    height: 80px;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: #99a6b3;
+    display: inline-block;
+    border-left: 5px solid white;
+}
+
+.cover .sidebar .sub-sidebar:hover {
+    background-color: #f3fbfe;
+    color: #0ab7eb;
+    border-left: 5px solid #0ab7eb;
+}
+
+/* body */
+.cover .content {
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    z-index: 1;
+}
+
+.cover .content .content-detail {
+    width: 80%;
+    height: auto;
+    display: inline-block;
+    margin: 12vh 2vw 5vh 0;
+    background-color: white;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+}
+
+/* detail of index */
+.cover .content .content-detail .button-back{
+    text-align: center;
+    padding-top: 5vh;
+}
+.cover .content .content-detail .button-back a{
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    width: 10vw;
+    padding-top: 2vh;
+    height: 6vh;
+    color: white;
+    background-color: #0ab7eb;
+    font-weight: 600;
+}
+.cover .content .content-detail .button-back a:hover{
+    background-color: #46d0fa;
+}
+.cover .content .content-detail .title-article {
+    text-align: center;
+    height: 150px;
+    padding-top: 50px;
+    font-size: 35px;
+    box-sizing: border-box;
+    font-weight: 600;
+    color: #0ab7eb;
+}
+
+.cover .content .content-detail .date {
+    text-align: center;
+    height: 30px;
+    font-size: 15px;
+    box-sizing: border-box;
+    font-weight: 600;
+    padding-bottom: 0px;
+    color: #99a6b3;
+}
+
+.cover .content .content-detail .author {
+    text-align: center;
+    height: 50px;
+    font-size: 20px;
+    box-sizing: border-box;
+    font-weight: 600;
+    padding-bottom: 0px;
+    color: #99a6b3;
+}
+
+.cover .content .content-detail .short-description {
+    text-align: left;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+.cover .content .content-detail .short-description .title {
+    text-align: left;
+    height: auto;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    color: #0ab7eb;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.cover .content .content-detail .short-description .content {
+    text-align: left;
+    height: auto;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 50px;
+    color: black;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.cover .content .content-detail .content-blog {
+    text-align: left;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+.cover .content .content-detail .content-blog .title {
+    text-align: left;
+    height: auto;
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    color: #0ab7eb;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.cover .content .content-detail .content-blog .content {
+    text-align: left;
+    height: auto;
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 50px;
+    color: black;
+    box-sizing: border-box;
+    padding-right: 35px;
+    overflow: hidden;
+}
+
+.cover .comment {
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    z-index: 1;
+}
+
+.cover .content .comment-detail {
+    width: 80%;
+    height: auto;
+    display: inline-block;
+    margin: 0vh 2vw 5vh 0;
+    background-color: white;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+}
+.cover .content .content-error {
+    width: 80%;
+    height: auto;
+    display: inline-block;
+    margin: 10vh 2vw 5vh 0;
+    padding-bottom: 5vh; 
+    background-color: white;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.11);
+    border-radius: 10px;
+}
+
+.cover .content .comment-detail .title-comment {
+    text-align: center;
+    height: 150px;
+    padding-top: 80px;
+    font-size: 35px;
+    box-sizing: border-box;
+    font-weight: 600;
+    color: #0ab7eb;
+    padding-bottom: 20px;
+}
+.cover .content .comment-detail .no-record {
+    text-align: left;
+    color: red;
+    font-weight: 600;
+    padding: 50px 0 0px 3vw;
+    box-sizing: border-box;
+}
+.cover .content .content-error .no-record {
+    text-align: left;
+    color: red;
+    font-weight: 600;
+    padding: 50px 0 0px 3vw;
+    box-sizing: border-box;
+}
+.cover .content .comment-detail .content-comment {
+    text-align: left;
+    height: auto;
+    width: 90%;
+    box-sizing: border-box;
+    padding: 30px 0;
+    margin-left: 3.5vw;
+    margin-bottom: 20px;
+    background-color: #F2F3F5;
+    border-radius: 56px;
+}
+
+.cover .content .comment-detail .content-comment .username {
+    color: #FFC659;
+    font-weight: 700;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.cover .content .comment-detail .content-comment .date {
+    color: #99a6b3;
+    font-weight: 600;
+    font-size: 12px;
+    padding-left: 35px;
+}
+
+.cover .content .comment-detail .content-comment .content-detail-comment {
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 35px;
+    margin-right: 35px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.cover .content .comment-detail .form {
+    padding: 50px;
+    text-align: left;
+}
+
+.cover .content .comment-detail .form textarea {
+    width: 100%;
+    display: inline-block;
+}
+
+.cover .content .comment-detail .form .button {
+    text-align: center;
+}
+.cover .content .comment-detail .form .button a{
+    display: inline-block;
+    width: 20%;
+    height: 50px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #0AB7EB;
+    cursor: pointer;
+    padding-top: 1vh;
+}
+.cover .content .comment-detail .form .button a:hover {
+    background-color: rgb(24, 193, 245);
+}
+.cover .content .comment-detail .form .button input {
+    width: 15%;
+    height: 50px;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #0AB7EB;
+    cursor: pointer;
+}
+
+.cover .content .comment-detail .form .button input:hover {
+    background-color: rgb(24, 193, 245);
+}
