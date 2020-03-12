@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat';
+
+}
+
+.cover {
+  background-color: #F4F6F8;
+  height: 100vh;
+  padding: 1.5% 0 0 2%;
+  box-sizing: border-box;
+}
+
+.cover .sub-cover {
+  background-color: white;
+  width: 98%;
+  height: 96%;
+  border-radius: 15px;
+  box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.11);
+}
+
+.cover .sub-cover .form {
+  width: 25%;
+  height: auto;
+  position: absolute;
+  left: 40%;
+  top: 10%;
+}
+
+.cover .sub-cover .form .title {
+  width: 100%;
+  font-size: 2vw;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 5vh;
+  color: #0AB7EB;
+}
+
+.cover .sub-cover .form .error {
+  width: 100%;
+  font-size: 0.7vw;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 2vh;
+  color: red;
+  text-align: center;
+}
+
+.cover .sub-cover .form .success {
+  width: 100%;
+  font-size: 0.7vw;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 2vh;
+  color: green;
+  text-align: center;
+}
+
+.cover .sub-cover .form .input {
+  padding-bottom: 2vh;
+  height: auto;
+}
+
+.cover .sub-cover .form .input p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #99A6B3;
+}
+
+.cover .sub-cover .form .input input {
+  text-decoration: none;
+  height: 40px;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 500;
+  padding-left: 0.6vw;
+  background-color: #E8F0FE;
+  outline: none;
+  border: 1px solid #B8C2CD;
+  box-sizing: border-box;
+}
+
+
+.cover .sub-cover .form .button {
+  padding-top: 4vh;
+}
+
+.cover .sub-cover .form .button input {
+  width: 100%;
+  height: 40px;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: #0AB7EB;
+  cursor: pointer;
+}
+
+.cover .sub-cover .form .button input:hover {
+  background-color: rgb(24, 193, 245);
+}
+
+.cover .sub-cover .form .register {
+  padding-top: 2vh;
+  text-align: center;
+  
+}
+
+.cover .sub-cover .form .register span {
+  font-size: 14px;
+}
+
+.cover .sub-cover .form .register span a {
+  color: #0AB7EB;
+  text-decoration: none;
+}

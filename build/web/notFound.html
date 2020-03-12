@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Soft Skills Blog</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/notFound.css">
+    </head>
+    <body>
+        <div class="error">
+            <div class="middle-title">
+                <p>
+                    ACTION NOT FOUND
+                </p>
+            </div>
+            <div class="bottom-title">
+                <p>
+                    Sorry, the action you're looking for is not found.
+                </p>
+            </div>
+            <div class="button">
+                <div class="button-left">
+                    <c:url var="urlRewriting" value="ServletController">
+                        <c:param name="action" value="Get Article" />
+                    </c:url>
+                    <a href="index.jsp"> Home </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
